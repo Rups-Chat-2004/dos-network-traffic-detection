@@ -23,11 +23,12 @@ The dataset (`network_features.csv`) was captured directly from the Linux termin
 
 ##  File Descriptions
 
- `capture_packets.py` - Captures live packets and saves to `.pcap`. 
- `process_pcap.py` - Processes `.pcap` file to extract IP-based features. 
- `network_features.csv` - Feature-extracted CSV file. 
- `DoS_Detection.ipynb` - Colab notebook for processing and analyzing the CSV. 
- `requirements.txt` - Python dependencies. 
+- `capture_packets.py` – Captures live network packets using Scapy and saves them to a `.pcap` file.  
+- `process_pcap.py` – Extracts features (source IP, destination IP, protocol, packet length) from the `.pcap` file and stores them in a `.csv`.  
+- `network_traffic.pcap` – Contains raw packet data captured from the network interface.  
+- `network_features.csv` – Stores the processed network traffic features in tabular format.  
+- `DoS_Detection.ipynb` – Google Colab notebook that loads the CSV, analyzes traffic patterns, and detects potential DoS attacks.  
+- `requirements.txt` – Lists Python dependencies required to run the Python scripts.  
 
 ##  Installation
 
