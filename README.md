@@ -21,7 +21,7 @@ The dataset (`network_features.csv`) was captured directly from the Linux termin
 - IPython / Jupyter
 - CSV / PCAP formats
 
-##  File Descriptions
+##  File Descriptions-
 
 - `capture_packets.py` – Captures live network packets using Scapy and saves them to a `.pcap` file.  
 - `process_pcap.py` – Extracts features (source IP, destination IP, protocol, packet length) from the `.pcap` file and stores them in a `.csv`.  
